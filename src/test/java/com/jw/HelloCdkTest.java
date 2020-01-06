@@ -1,5 +1,6 @@
-package com.myorg;
+package com.jw;
 
+import com.jw.stack.HelloCdkStack;
 import software.amazon.awscdk.core.App;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;

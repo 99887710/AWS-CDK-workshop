@@ -9,6 +9,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <cdk.version>1.19.0</cdk.version>
     </properties>
 
     <build>
@@ -28,7 +29,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.6.0</version>
                 <configuration>
-                    <mainClass>com.myorg.HelloCdkApp</mainClass>
+                    <mainClass>com.jw.app.HelloCdkApp</mainClass>
                 </configuration>
             </plugin>
         </plugins>
@@ -49,5 +50,12 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>software.amazon.awscdk</groupId>
+            <artifactId>s3</artifactId>
+            <version>${cdk.version}</version>
+        </dependency>
+
     </dependencies>
 </project>
