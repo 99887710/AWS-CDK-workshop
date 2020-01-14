@@ -10,6 +10,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <cdk.version>1.19.0</cdk.version>
+        <yml.version>1.11</yml.version>
     </properties>
 
     <build>
@@ -55,6 +56,12 @@
             <groupId>software.amazon.awscdk</groupId>
             <artifactId>s3</artifactId>
             <version>${cdk.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>${yml.version}</version>
         </dependency>
 
     </dependencies>

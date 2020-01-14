@@ -1,0 +1,4 @@
+provider:
+    name: [Your Stack Name]
+    accountId: [Your AWS Account Id]
+    region: [Your AWS Region]
