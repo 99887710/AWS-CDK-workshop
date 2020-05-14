@@ -17,6 +17,7 @@ It is a [Maven](https://maven.apache.org/) based project, so you can open this p
 
 Enjoy!
 
+```
 
 Apps -> Stacks -> Constructs
 
@@ -24,3 +25,5 @@ e.g.
 App(Trading App) -> Stack(Dev)     -> Constructs (S3, RDS, DynamoDB...)
                  -> Stack(Staging)
                  -> Stack(Prod)
+
+```
