@@ -10,7 +10,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <cdk.version>1.19.0</cdk.version>
-        <yml.version>1.11</yml.version>
+        <yml.version>1.26</yml.version>
     </properties>
 
     <build>
